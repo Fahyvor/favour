@@ -1,0 +1,74 @@
+footer {
+    background: var(--color-primary);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--color-bg);
+}
+
+.footer__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    display: inline-block;
+    padding: 0;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.footer__socials a {
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+    font-size: 1.5rem;
+}
+
+.footer__socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer_copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
+    font-size: 10rem;
+}
+
+ /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ====================== */
+ @media screen and (max-width: 1024px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+  }
+  /* ========================== MEDIA QUERIES (SMALL DEVICES) ====================== */
+  @media screen and (max-width: 600px) {
+     
+}
