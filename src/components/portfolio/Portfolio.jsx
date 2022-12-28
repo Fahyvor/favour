@@ -1,11 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
   return (
@@ -16,64 +13,35 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG1} alt="educationwebsite" />
           </div>
-          <h3>This is a porfolio item title</h3>
+          <h3>Education Website</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/" className='btn'>Github</a>
-          <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://github.com/fahyvor" className='btn'>Github</a>
+          <a href="https://university-of-manchester.netlify.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
+            <img src={IMG2} alt="portfoliowebiste" />
           </div>
-          <h3>This is a porfolio item title</h3>
+          <h3>Portfolio Website</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/" className='btn'>Github</a>
-          <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://github.com/fahyvor" className='btn'>Github</a>
+          <a href="https://favour-portfolio.vercel.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG3} alt="kaaysgraphixwebiste" />
           </div>
-          <h3>This is a porfolio item title</h3>
+          <h3>Company Portfolio Website</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/" className='btn'>Github</a>
-          <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://github.com/fahyvor" className='btn'>Github</a>
+          <a href="https://kaays-graphix.netlify.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a porfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/" className='btn'>Github</a>
-          <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>This is a porfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/" className='btn'>Github</a>
-          <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>This is a porfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/" className='btn'>Github</a>
-          <a href="https://dribble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
+        
       
       </div>
     </section>

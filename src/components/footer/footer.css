@@ -70,5 +70,21 @@ footer a {
   }
   /* ========================== MEDIA QUERIES (SMALL DEVICES) ====================== */
   @media screen and (max-width: 600px) {
-     
+    .permalinks {
+        display: flex;
+        flex-direction: row;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;
+        gap: 10%;
+        margin: 0 auto 2rem;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .footer__socials {
+        display: flex;
+        justify-content: center;
+        gap: 14%;
+        margin-bottom: 9%;
+    }
 }
