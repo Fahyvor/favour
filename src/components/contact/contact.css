@@ -66,5 +66,14 @@
   @media screen and (max-width: 600px) {
       .container.contact__container {
         width: var(--container-width-sm);
-  }
+    }
+    input, textarea {
+        width: 90%;
+        margin-bottom: 20px;
+        border-radius: 0.5rem;
+        background: transparent;
+        border: 2px solid var(--color-primary-variant);
+        resize: none;
+        color: var(--color-white);
+    }
 }

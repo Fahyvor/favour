@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p>
-            Favour is a Front End Web Developer, Graphics Designer and Blockchain Developer with over 6+years
+            Favour is a Front End Web Developer, Graphics Designer and Blockchain Developer with over 7+years
             working experience and vast technological knowledge.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

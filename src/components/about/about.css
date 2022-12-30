@@ -113,5 +113,6 @@
     .about__content p {
         margin: 1.5rem;
         padding: 0.5rem;
+        width: 85%;
     }
 }
