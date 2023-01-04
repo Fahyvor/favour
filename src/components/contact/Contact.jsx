@@ -4,7 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react';
-// import emailjs from 'email-js-com'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const form = useRef();
@@ -12,7 +12,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm('fahyvor', 'template_6djgdrq', form.current, 'Amff1N1IhpL2XK1Q6')
+      .then((result) => {
+        console.log("Message Sent");
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
 
     e.target.reset()
   };
@@ -45,8 +51,8 @@ const Contact = () => {
         </div>
         {/* ==== END OF CONTACT OPTIONS ==== */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
+          <input type="text" name='user_name' placeholder='Your Full Name' required />
+          <input type="email" name='user_email' placeholder='Your Email' required />
           <textarea name="message"  rows="7" placeholder='Your Message' required ></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
