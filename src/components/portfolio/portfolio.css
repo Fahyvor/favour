@@ -52,4 +52,9 @@
         gap: 15px;
         margin: 8px 2px;
     }
+
+    .portfolio__item-cta {
+        gap: 10%;
+        margin: 8px 2px;
+    }
 }

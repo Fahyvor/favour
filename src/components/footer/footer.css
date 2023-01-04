@@ -75,7 +75,7 @@ footer a {
         flex-direction: row;
         grid-template-rows: repeat(1, 4fr);
         justify-content: center;
-        gap: 20px;
+        gap: 20%;
         margin: 9px 2px;
         font-size: 1rem;
         font-weight: bolder;
@@ -84,7 +84,7 @@ footer a {
     .footer__socials {
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 20%;
         margin: 9px 2px;
     }
 }
