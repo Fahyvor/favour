@@ -67,6 +67,11 @@
       .container.contact__container {
         width: var(--container-width-sm);
     }
+
+    form {
+        margin: 8px, 2px;
+    }
+
     input, textarea {
         width: 90%;
         margin-bottom: 20px;
@@ -75,5 +80,10 @@
         border: 2px solid var(--color-primary-variant);
         resize: none;
         color: var(--color-white);
+    }
+
+    .contact__options {
+        margin: 8px 2px;
+        gap: 15px;
     }
 }
