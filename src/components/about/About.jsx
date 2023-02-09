@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5> Experience</h5>
-              <small>6+ Years Working</small>
+              <small>7+ Years Working</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p>
-            Favour is a Front End Web Developer, Graphics Designer and Blockchain Developer with over 7+years
+            Favour is a Web Developer, Graphics Designer and Blockchain Developer with over 7+years
             working experience and vast technological knowledge.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

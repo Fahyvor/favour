@@ -88,4 +88,9 @@
         margin: 8px 2px;
         gap: 40%;
     }
+
+    .contact__option{
+        padding-bottom: 8%;
+        margin-top: 4%;
+    }
 }
