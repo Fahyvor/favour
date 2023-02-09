@@ -91,4 +91,8 @@ footer a {
     li{
         margin-left: 5%;
     }
+
+    .footer__socials a{
+        margin-left: 5%;
+    }
 }
