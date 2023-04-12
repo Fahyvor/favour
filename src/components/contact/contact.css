@@ -19,7 +19,6 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 20vw;
 }
 
 .contact__option:hover {
