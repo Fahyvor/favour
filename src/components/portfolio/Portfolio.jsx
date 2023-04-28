@@ -4,6 +4,7 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
+import Ecommerce from '../../assets/portfolio5'
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,15 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
+            <img src={Ecommerce} alt="ecommercewebsite" />
+          </div>
+          <h3>E-commerce Website</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/impoNexpo/PublicVersion/tree/test/pages" className='btn'>Github</a>
+          <a href="https://imponexpo-first-public-version.vercel.app/product" className='btn btn-primary' target='_blank'>Check Out the Site</a>
+          </div>
+        </article>
+        <div className="portfolio__item-image">
             <img src={IMG1} alt="educationwebsite" />
           </div>
           <h3>Education Website</h3>
