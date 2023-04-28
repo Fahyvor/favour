@@ -23,7 +23,7 @@ const Portfolio = () => {
           <a href="https://imponexpo-first-public-version.vercel.app/product" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
-        <article>
+        <article className='portfolio__item'>
         <div className="portfolio__item-image">
             <img src={IMG1} alt="educationwebsite" />
           </div>
