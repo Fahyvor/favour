@@ -5,6 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import Ecommerce from '../../assets/portfolio5.png'
+import Foodapp from '../../assets/portfolio6.png'
 
 const Portfolio = () => {
   return (
@@ -45,12 +46,12 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="kaaysgraphixwebiste" />
+            <img src={Foodapp} alt="foodwebsite" />
           </div>
-          <h3>Company Portfolio Website</h3>
+          <h3>Food Company Website</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/fahyvor/KGX/tree/master" className='btn'>Github</a>
-          <a href="https://kaays-graphix.netlify.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
+          <a href="https://github.com/fahyvor/foodapp/tree/master" className='btn'>Github</a>
+          <a href="https://food-web-application.netlify.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -63,6 +64,17 @@ const Portfolio = () => {
           <a href="https://www.cmonlineradio.com" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="kaaysgraphixwebiste" />
+          </div>
+          <h3>Company Portfolio Website</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/fahyvor/KGX/tree/master" className='btn'>Github</a>
+          <a href="https://kaays-graphix.netlify.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
+          </div>
+        </article>
+        
       
       </div>
     </section>
