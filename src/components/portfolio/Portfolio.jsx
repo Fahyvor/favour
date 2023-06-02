@@ -70,7 +70,7 @@ const Portfolio = () => {
           </div>
           <h3>Mobile Application</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/fahyvor/KGX/tree/master" className='btn'>Github</a>
+          <a href="https://github.com/Fahyvor/final-year-project-react-native" className='btn'>Github</a>
           <a href="" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
