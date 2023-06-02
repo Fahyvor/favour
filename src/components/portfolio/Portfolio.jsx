@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.png'
+import Mobile from '../../assets/Mobile.png'
 import IMG4 from '../../assets/portfolio4.png'
 import Ecommerce from '../../assets/portfolio5.png'
 import Foodapp from '../../assets/portfolio6.png'
@@ -66,12 +66,12 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="kaaysgraphixwebiste" />
+            <img src={Mobile} alt="secured fingerprint payment application" />
           </div>
-          <h3>Company Portfolio Website</h3>
+          <h3>Mobile Application</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/fahyvor/KGX/tree/master" className='btn'>Github</a>
-          <a href="https://kaays-graphix.netlify.app" className='btn btn-primary' target='_blank'>Check Out the Site</a>
+          <a href="" className='btn btn-primary' target='_blank'>Check Out the Site</a>
           </div>
         </article>
         

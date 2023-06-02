@@ -11,33 +11,18 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>Graphics Design</h3>
+            <h3>Mobile Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Logo Design</p>
+              <p>Native Applications</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Flyer Design.</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Window Graphics</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Youtube Banner Ads</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Illustrations</p>
+              <p>Web Applications</p>
             </li>
           </ul>
         </article>
