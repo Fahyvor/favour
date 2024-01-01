@@ -143,6 +143,14 @@ const Experience = () => {
         <article className='experience__details'>
         <BsPatchCheckFill className='experience__detials-icon' />
         <div>
+          <h4>PostgreSQL</h4>
+          <small className='text-light'>Intermediate</small>
+        </div>
+        </article>
+
+        <article className='experience__details'>
+        <BsPatchCheckFill className='experience__detials-icon' />
+        <div>
           <h4>PHP</h4>
           <small className='text-light'>Basic</small>
         </div>

@@ -12,6 +12,20 @@
     transition: var(--transition);
 }
 
+.portfolio__item_mobile {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    overflow-y: scroll;
+    height: 60%;
+}
+
+.portfolio__item_mobile .portfolio__item-cta {
+    margin-top: 10%;
+}
+
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -20,6 +34,13 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.portfolio__item-image_mobile {
+    border-radius: 1.5rem;
+    overflow-y: scroll;
+    height: 60%;
+    margin-bottom: 5%;
 }
 
 .portfolio__item h3 {
