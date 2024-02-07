@@ -65,8 +65,8 @@
         gap: 2rem;
     }
 
-    .contact_option {
-        width: 80vw;
+    .contact__option {
+        width: 100%;
     }
 
   }
